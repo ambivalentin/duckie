@@ -54,7 +54,6 @@ input {
   height: 60px;
   border: none;
   border-bottom: 1px solid;
-  /*  text-align: start; */
 }
 
 input::placeholder {
@@ -64,22 +63,22 @@ input::placeholder {
   font-size: 18px;
 }
 
+input:hover {
+  border: none;
+  border-bottom: #ffb039 1px solid;
+}
+
 #email,
 #message_regarding {
   width: 40%;
 }
 
-a {
-  font-family: "roboto", serif;
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
+.send_message:hover {
   color: #ffb039;
 }
 
-.send {
+.send_message {
+  font-family: "roboto", serif;
   letter-spacing: 2px;
   color: #ffffff;
   font-size: 18px;

@@ -17,16 +17,16 @@
   <body>
     <div class="card">
       <form>
-        <label>FULL NAME</label>
-        <input type="text" id="your_name" />
-        <label>EMAIL</label>
-        <input type="email" id="email" placeholder="Your Email" />
-        <label>MESSAGE REGARDING</label>
-        <input type="text" id="message_regarding" />
-        <label>MESSAGE</label>
+        <label for="name">FULL NAME</label>
+        <input type="text" id="name" required/>
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" placeholder="Your Email" required/>
+        <label for="message_regarding">MESSAGE REGARDING</label>
+        <input type="text" id="message_regarding" required/>
+        <label for="your_message">MESSAGE</label>
         <input type="text" id="your_message" placeholder="Your Message" />
+        <input type="button" value="Send Message" class="send_message">
       </form>
-      <button class="send"><a href="send.message">SEND MESSAGE</a></button>
       <img src="/images/duck.png" class="duck" alt="rubber_duck" />
     </div>
   </body>
